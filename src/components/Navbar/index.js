@@ -1,5 +1,6 @@
 import styles from './Navbar.module.scss';
 import { ReactComponent as Logo} from '../../assets/logo.svg'
+import Busca from '../Busca/index'
 import classNames from 'classnames';
 import {
     RiShoppingCart2Line,
@@ -26,7 +27,7 @@ return(
             </div>
         </div>
         <div className={styles.busca}>
-
+            <Busca/>
         </div>
         <div className={styles.icones}>
             <a href='/carrinho'>
